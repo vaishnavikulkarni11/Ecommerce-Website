@@ -1,0 +1,88 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 50;
+    background: lightgray;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+section {
+    padding: 200px 10px 300px 10px;
+    text-align: center;
+    
+  
+}
+ h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* Contact Form */
+form input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+
+#home {
+    padding-top: 350px; 
+    text-align: center;
+    min-height: 90vh;
+    padding: 50px 0;
+    background-color: #e7f3ff;
+}
+    
+#home h1{
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom:15px;
+}
+
+#home p{
+    font-size: 20px;
+    color: #333;
+}
+html{
+    scroll-behavior: smooth;
+}
